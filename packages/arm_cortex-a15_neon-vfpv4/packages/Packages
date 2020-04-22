@@ -1,0 +1,119 @@
+Package: ddns-scripts
+Version: 2.7.8-3
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14711
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15771
+SHA256sum: 451ee5adfeab037d78dc0d8380133611026263c66f3692dacb2dfa9cde69751e
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: libev
+Version: 4.22-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 17631
+Filename: libev_4.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 18403
+SHA256sum: ed9103bbb3b59b18b8b2741180db0c0323b39d7d843363080010660a6fc6a5fd
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 82288
+Filename: libpcre_8.41-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 83066
+SHA256sum: 923e469078f258d7e9d5c35969489728647cfe6e36acda2f130fcded4589898f
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsodium
+Version: 1.0.16-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 105605
+Filename: libsodium_1.0.16-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 106787
+SHA256sum: b0ec6e00342d81c39ec208e33b95992d3873a2da84e1da7d92fe9e0ad99da006
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53372
+Filename: miniupnpd_2.0.20170421-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54273
+SHA256sum: 9f9a1493add811964a5f73342dadb5bf0665757c6ea2ba327212b16726c93dbd
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: ntfs-3g
+Version: 2017.3.23-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0 LGPL-2.0
+Section: utils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 185582
+Filename: ntfs-3g_2017.3.23-1-fuseint_arm_cortex-a15_neon-vfpv4.ipk
+Size: 186389
+SHA256sum: e5567e07140f6708c507494ca1d4400cda7c3777538f20e31fa1fc828fb22303
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.4-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42629
+Filename: shadowsocks-libev-ss-redir_3.3.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 43440
+SHA256sum: e9cf977fad20135d5b06452b58f7efa532cf2e51ce4e6660c25b43e337fd2a12
+Description:  shadowsocks-libev ss-redir
+
+Package: wget
+Version: 1.20.3-3
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 199690
+Filename: wget_1.20.3-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 200238
+SHA256sum: ac3b8e78c4e2fabf1f7423f4eee5ee5440b67f5894b0392a487373c71892c958
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+

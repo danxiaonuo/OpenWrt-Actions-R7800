@@ -1,0 +1,199 @@
+Package: luci-app-ddns
+Version: 2.4.9-7
+Depends: libc, luci-mod-admin-full, ddns-scripts
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 19210
+Filename: luci-app-ddns_2.4.9-7_all.ipk
+Size: 20067
+SHA256sum: 3c15b81b8feae19ec3091d20cc161ad6b48097f3e524d95aade918c4d606b18a
+Description:  LuCI Support for Dynamic DNS Client (ddns-scripts)
+
+Package: luci-app-firewall
+Version: git-20.088.29068-cebe120-1
+Depends: libc, firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10099
+Filename: luci-app-firewall_git-20.088.29068-cebe120-1_all.ipk
+Size: 10852
+SHA256sum: 7fe4d2b8b3c94e038aaeecccd4641f81b2a4e5d5941a9409798a209c0a10fe31
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-samba
+Version: git-20.088.29068-cebe120-1
+Depends: libc, samba36-server
+Section: luci
+Architecture: all
+Installed-Size: 1334
+Filename: luci-app-samba_git-20.088.29068-cebe120-1_all.ipk
+Size: 2083
+SHA256sum: f4a34766b63ffa623fbd5fdc28fdce8ef5643d23a4632607d19ea547d97d1618
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-app-upnp
+Version: git-20.088.29068-cebe120-1
+Depends: libc, miniupnpd
+Section: luci
+Architecture: all
+Installed-Size: 3440
+Filename: luci-app-upnp_git-20.088.29068-cebe120-1_all.ipk
+Size: 4253
+SHA256sum: 84308e6bf41f59f033386b0822a536907223d8abcb99aa82d847b1837e9671e9
+Description:  Universal Plug & Play configuration module
+
+Package: luci-base
+Version: git-20.088.29068-cebe120-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 108959
+Filename: luci-base_git-20.088.29068-cebe120-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 110002
+SHA256sum: 3877e25555d0aaf383bbb6ba294a495a58c209b857db6b0595edb8dd3de45495
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-zh-cn
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 29391
+Filename: luci-i18n-base-zh-cn_git-20.088.29068-cebe120-1_all.ipk
+Size: 30268
+SHA256sum: 7473a72563b6d8c9af05bb6c8112841524e7c4d7daeb1a47c164dc9e72c56e8c
+Description:  Translation for luci-base - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ddns-zh-cn
+Version: 2.4.9-7
+Depends: libc, luci-app-ddns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6766
+Filename: luci-i18n-ddns-zh-cn_2.4.9-7_all.ipk
+Size: 7670
+SHA256sum: 65bc484e886b48913826562ae459770d2a7e74548a8749bdae2d9e37e4e4539c
+Description:  Translation for luci-app-ddns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4641
+Filename: luci-i18n-firewall-zh-cn_git-20.088.29068-cebe120-1_all.ipk
+Size: 5464
+SHA256sum: b59a96f1ae4b0b49a07274e512570e39dfb7674ce12680cc5f250f2da4f26a56
+Description:  Translation for luci-app-firewall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-samba-zh-cn
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-app-samba
+Section: luci
+Architecture: all
+Installed-Size: 1214
+Filename: luci-i18n-samba-zh-cn_git-20.088.29068-cebe120-1_all.ipk
+Size: 2052
+SHA256sum: af39e37f7b6f692eceaf872a1942d00dc0044866f8d719331edc7ad068425eb0
+Description:  Translation for luci-app-samba - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-upnp-zh-cn
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-app-upnp
+Section: luci
+Architecture: all
+Installed-Size: 1608
+Filename: luci-i18n-upnp-zh-cn_git-20.088.29068-cebe120-1_all.ipk
+Size: 2453
+SHA256sum: e0645f14f7bb945f21e3abe358480de96d6be99130119b9dac6a78c6cff8e2ca
+Description:  Translation for luci-app-upnp - 简体中文 (Simplified Chinese)
+
+Package: luci-lib-ip
+Version: git-20.088.29068-cebe120-1
+Depends: libc, liblua5.1.5, libnl-tiny
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8966
+Filename: luci-lib-ip_git-20.088.29068-cebe120-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9727
+SHA256sum: 86e3d6f261ad0a8d0779ad42d404b7df8b9e9cacca791aab62375643b2064a6e
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-20.088.29068-cebe120-1
+Depends: libc, liblua5.1.5, libjson-c
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3370
+Filename: luci-lib-jsonc_git-20.088.29068-cebe120-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4080
+SHA256sum: b60390c51c845cc8a451de048b07625823e9e4f8c4781a9cc2e03a72631be3e0
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-20.088.29068-cebe120-1
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 29020
+Filename: luci-lib-nixio_git-20.088.29068-cebe120-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 29624
+SHA256sum: e131f22f93e79ad21d66b2e5101d666ceac43f56c5b99779a17c9acebe6c3dae
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-20.088.29068-cebe120-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 74551
+Filename: luci-mod-admin-full_git-20.088.29068-cebe120-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 75483
+SHA256sum: 2316fce820b0e07a61d31de971c27cddc364058fdaa0a9ad2f3ea302a2f98ddd
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ppp
+Version: git-20.088.29068-cebe120-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2924
+Filename: luci-proto-ppp_git-20.088.29068-cebe120-1_all.ipk
+Size: 3649
+SHA256sum: d48c3d1642508ab6fb236836ed0823b280e02884ce3be8bc69bf3133f18474bd
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci
+Version: git-20.088.29068-cebe120-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, rpcd-mod-rrdns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-20.088.29068-cebe120-1_all.ipk
+Size: 895
+SHA256sum: fd22335d5462e60cfe59bc7be2a165a927b590383e35a3a9248f7657e8318e11
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20170601, libubus20191227
+License: Apache-2.0
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3487
+Filename: rpcd-mod-rrdns_20170710_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4311
+SHA256sum: 3bac6621005d56b10f6b3556631655505309b605fea64ae4b89f7428bb683f34
+Description:  Provides rapid mass reverse DNS lookup functionality.
+
